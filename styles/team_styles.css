@@ -897,7 +897,12 @@ section
 .picture_boxes
 {
 	padding-top: 132px;
-	padding-bottom: 118px;
+	padding-bottom: 50px;
+}
+.picture_boxes2
+{
+	padding-top: 20px;
+	padding-bottom: 200px;
 }
 .card
 {
@@ -927,6 +932,7 @@ section
 	color: #ca3438;
 	text-transform: uppercase;
 	margin-top: 11px;
+    margin-bottom: 25px;
 	-webkit-transition: all 200ms ease;
 	-moz-transition: all 200ms ease;
 	-ms-transition: all 200ms ease;
