@@ -51,7 +51,19 @@ COLOR PALETTE
 /*********************************
 2. Body and some general stuff
 *********************************/
-
+.colorful {
+  background:
+    -webkit-linear-gradient(315deg, hsla(0, 100%, 50%, 1) 0%, hsla(0, 100%, 50%, 0) 70%),
+    -webkit-linear-gradient(65deg, hsla(0, 100%, 23.14%, 1) 10%, hsla(0, 100%, 23.14%, 0) 80%),
+    -webkit-linear-gradient(135deg, hsla(0, 100%, 50%, 1) 15%, hsla(0, 100%, 50%, 0) 80%),
+    -webkit-linear-gradient(205deg, hsla(0, 100%, 19.91%, 1) 100%, hsla(0, 100%, 19.91%, 0) 70%);
+  background:
+    linear-gradient(135deg, hsla(0, 100%, 50%, 1) 0%, hsla(0, 100%, 50%, 0) 70%),
+    linear-gradient(25deg, hsla(0, 100%, 23.14%, 1) 10%, hsla(0, 100%, 23.14%, 0) 80%),
+    linear-gradient(315deg, hsla(0, 100%, 50%, 1) 15%, hsla(0, 100%, 50%, 0) 80%),
+    linear-gradient(245deg, hsla(0, 100%, 19.91%, 1) 100%, hsla(0, 100%, 19.91%, 0) 70%);
+  }
+	
 *
 {
 	margin: 0;
@@ -144,14 +156,14 @@ h1, h2, h3, h4, h5, h6
 	-webkit-text-shadow: rgba(0,0,0,.01) 0 0 1px;
 	text-shadow: rgba(0,0,0,.01) 0 0 1px;
 }
-h1::selection, 
-h2::selection, 
-h3::selection, 
-h4::selection, 
-h5::selection, 
+h1::selection,
+h2::selection,
+h3::selection,
+h4::selection,
+h5::selection,
 h6::selection
 {
-	
+
 }
 ::-webkit-input-placeholder
 {
@@ -165,14 +177,14 @@ h6::selection
 	font-weight: 500;
 	color: #777777 !important;
 }
-::-moz-placeholder /* Firefox 19+ * / 
+::-moz-placeholder /* Firefox 19+ * /
 {
 	font-size: 16px !important;
 	font-weight: 500;
 	color: #777777 !important;
-} 
+}
 :-ms-input-placeholder
-{ 
+{
 	font-size: 16px !important;
 	font-weight: 500;
 	color: #777777 !important;
@@ -278,7 +290,7 @@ section
 	line-height: 66px;
 	text-transform: uppercase;
 	letter-spacing: 6.7px;
-	
+
 }
 .button a img
 {
@@ -384,7 +396,7 @@ section
 {
     text-align: left;
     margin-left: 7px;
-    
+
 }
 .main_nav
 {
@@ -1226,7 +1238,7 @@ section
 }
 .clients_item
 {
-	
+
 }
 .clients_item img
 {
